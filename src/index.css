@@ -1,5 +1,4 @@
 :root {
-	--background-color: F5F5F5;
 	--title-font: "Cormorant Garamond", serif;
 	--title-color: #cd6d4d;
 	--text-font: "Roboto", serif;
@@ -8,4 +7,17 @@
 	--color2: #9b8ac4;
 	--color3: #4a90b8;
 	--color4: #b7c4b1;
+}
+body {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	background: linear-gradient(
+		45deg,
+		var(--background-color) 0%,
+		rgba(205, 109, 77, 0.05) 25% /* --color1 avec faible opacité */,
+		rgba(155, 138, 196, 0.05) 50% /* --color2 avec faible opacité */,
+		rgba(74, 144, 184, 0.05) 75% /* --color3 avec faible opacité */,
+		var(--background-color) 100%
+	);
 }
