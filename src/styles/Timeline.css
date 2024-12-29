@@ -45,7 +45,7 @@
 .timeline-element-3,
 .timeline-element-4,
 .timeline-element-5 {
-	border-radius: 20px;
+	border-radius: 15px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -65,12 +65,12 @@
 .timeline-element-5::before {
 	content: "";
 	position: absolute;
-	left: -22px; /* Alignement parfait avec la ligne */
-	top: 20px; /* Centré verticalement par rapport à l'élément */
-	width: 10px; /* Diamètre du point */
+	left: -22px;
+	top: 20px;
+	width: 10px;
 	height: 10px;
-	border-radius: 50%; /* Rond */
-	box-shadow: 0 0 4px rgba(0, 0, 0, 0.2); /* Ombre légère */
+	border-radius: 50%;
+	box-shadow: 0 0 4px rgba(155, 138, 196, 0.5);
 }
 
 .timeline-element-1 {

@@ -1,10 +1,10 @@
 .about-container {
-	padding: 30px 15px;
+	padding: 0px 15px;
 }
 
 .about-title {
 	font-size: 24px;
-	padding: 20px;
+	padding: 20px 20px 0px 20px;
 	color: var(--title-color);
 	font-family: var(--title-font);
 }
