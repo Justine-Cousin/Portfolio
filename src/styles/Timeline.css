@@ -1,0 +1,113 @@
+.timeline {
+	padding-left: 20px;
+}
+
+.timeline-container {
+	display: flex;
+	position: relative;
+}
+
+.timeline-line {
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	width: 2px; /* Épaisseur de la ligne */
+	background: none; /* Supprime tout fond */
+	border-left: 4px dotted rgba(155, 138, 196, 0.5);
+}
+
+.timeline-title {
+	font-size: 24px;
+	padding: 10px;
+	padding-bottom: 20px;
+	color: var(--title-color);
+	font-family: var(--title-font);
+	opacity: 1;
+}
+
+.timeline-element-title {
+	font-size: 20px;
+	color: var(--title-color);
+	font-family: var(--title-font);
+	opacity: 1;
+}
+
+.timeline-element-description {
+	font-size: 12px;
+	color: var(--text-color);
+	opacity: 1;
+	font-family: var(--text-font);
+}
+
+.timeline-element-1,
+.timeline-element-2,
+.timeline-element-3,
+.timeline-element-4,
+.timeline-element-5 {
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: start;
+	padding: 10px;
+	margin: 20px;
+	position: relative;
+	box-shadow: 0px 4px 6px 0px rgba(155, 138, 196, 0.1);
+	width: 250px;
+	height: 70px;
+}
+
+.timeline-element-1::before,
+.timeline-element-2::before,
+.timeline-element-3::before,
+.timeline-element-4::before,
+.timeline-element-5::before {
+	content: "";
+	position: absolute;
+	left: -22px; /* Alignement parfait avec la ligne */
+	top: 20px; /* Centré verticalement par rapport à l'élément */
+	width: 10px; /* Diamètre du point */
+	height: 10px;
+	border-radius: 50%; /* Rond */
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.2); /* Ombre légère */
+}
+
+.timeline-element-1 {
+	background-color: rgba(205, 109, 77, 0.1);
+}
+
+.timeline-element-1::before {
+	background-color: var(--color1);
+}
+
+.timeline-element-2 {
+	background-color: rgba(155, 138, 196, 0.1);
+}
+.timeline-element-2::before {
+	background-color: var(--color2);
+}
+
+.timeline-element-3 {
+	background-color: rgba(74, 144, 184, 0.1);
+}
+
+.timeline-element-3::before {
+	background-color: var(--color3);
+}
+
+.timeline-element-4 {
+	background-color: rgba(183, 196, 177, 0.1);
+}
+
+.timeline-element-4::before {
+	background-color: var(--color4);
+}
+
+.timeline-element-5 {
+	background-color: rgba(205, 109, 77, 0.1);
+}
+
+.timeline-element-5::before {
+	background-color: var(--color1);
+}

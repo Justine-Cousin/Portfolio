@@ -1,4 +1,5 @@
-import React from "react";
+import "../styles/About.css";
+import Timeline from "./Timeline";
 
 export default function About() {
 	return (
@@ -26,6 +27,7 @@ export default function About() {
 				des attentes business et les compétences techniques du développement
 				web.
 			</p>
+			<Timeline />
 		</div>
 	);
 }
