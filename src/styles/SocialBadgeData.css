@@ -1,0 +1,36 @@
+.social-badge {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: var(--color2);
+	cursor: pointer;
+	transition: all 0.3s ease;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.social-badge:hover {
+	background-color: rgba(155, 138, 196, 0.1);
+	transform: scale(1.1);
+}
+
+.social-badge-link {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.social-badge-logo {
+	width: 24px;
+	height: 24px;
+	filter: brightness(0) invert(1);
+	transition: all 0.3s ease;
+}
+
+.social-badge:hover .social-badge-logo {
+	filter: invert(67%) sepia(11%) saturate(867%) hue-rotate(219deg)
+		brightness(88%) contrast(84%);
+}

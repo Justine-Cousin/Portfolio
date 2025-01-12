@@ -1,8 +1,8 @@
-import about from "../assets/Images/about.svg";
-import contact from "../assets/Images/contact.svg";
-import home from "../assets/Images/home.svg";
-import projects from "../assets/Images/project.svg";
-import "../styles/Header.css";
+import about from "../../assets/Images/about.svg";
+import contact from "../../assets/Images/contact.svg";
+import home from "../../assets/Images/home.svg";
+import projects from "../../assets/Images/project.svg";
+import "../../styles/Header.css";
 
 export default function Header() {
 	return (

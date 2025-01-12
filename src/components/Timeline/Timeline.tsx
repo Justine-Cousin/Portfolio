@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
 import TimelineElements from "./TimelineElements";
-import "../styles/Timeline.css";
+import "../../styles/Timeline.css";
 import { motion, useAnimation } from "framer-motion";
 
 export default function Timeline() {

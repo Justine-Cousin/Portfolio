@@ -11,7 +11,6 @@
 	backdrop-filter: blur(12px);
 	-webkit-backdrop-filter: blur(12px);
 	margin: 0px 20px;
-	position: relative;
 	overflow: hidden;
 }
 
@@ -67,227 +66,19 @@
 	font-family: var(--text-font);
 }
 
-.presentation-list-logohtml {
-	background-color: var(--color1);
-	border-radius: 50%;
-	padding: 2px;
-	align-items: center;
-	justify-content: center;
-}
-
-.presentation-list-description-html {
-	font-size: 16px;
-	color: var(--color1);
-	font-family: var(--text-font);
-	padding-left: 5px;
-}
-
-.presentation-list-html {
-	background-color: rgba(205, 109, 77, 0.1);
-	display: flex;
-	border-radius: 20px;
-	align-items: center;
-	width: fit-content;
-	padding: 5px 10px;
-	border: 1px solid #ffffff;
-}
-
-.presentation-list-logocss {
-	background-color: var(--color2);
-	border-radius: 50%;
-	padding: 2px;
-	align-items: center;
-	justify-content: center;
-}
-
-.presentation-list-description-css {
-	font-size: 16px;
-	color: var(--color2);
-	font-family: var(--text-font);
-	padding-left: 5px;
-}
-
-.presentation-list-css {
-	background-color: rgba(155, 138, 196, 0.1);
-	display: flex;
-	border-radius: 20px;
-	align-items: center;
-	width: fit-content;
-	padding: 5px 10px;
-	border: 1px solid #ffffff;
-}
-
-.presentation-list-logojs {
-	background-color: var(--color3);
-	border-radius: 50%;
-	padding: 2px;
-	align-items: center;
-	justify-content: center;
-}
-
-.presentation-list-description-js {
-	font-size: 16px;
-	color: var(--color3);
-	font-family: var(--text-font);
-	padding-left: 5px;
-	align-items: center;
-	justify-content: center;
-}
-
-.presentation-list-js {
-	background-color: rgba(74, 144, 184, 0.1);
-	display: flex;
-	border-radius: 20px;
-	align-items: center;
-	width: fit-content;
-	padding: 5px 10px;
-	border: 1px solid #ffffff;
-}
-
-.presentation-list-logoreact {
-	background-color: var(--color4);
-	border-radius: 50%;
-	padding: 2px;
-	align-items: center;
-	justify-content: center;
-}
-
-.presentation-list-description-react {
-	font-size: 16px;
-	color: var(--color4);
-	font-family: var(--text-font);
-	padding-left: 5px;
-}
-
-.presentation-list-react {
-	background-color: rgba(183, 196, 177, 0.1);
-	display: flex;
-	border-radius: 20px;
-	align-items: center;
-	width: fit-content;
-	padding: 5px 10px;
-	border: 1px solid #ffffff;
-}
-
-.presentation-list-logonode {
-	background-color: var(--color1);
-	border-radius: 50%;
-	padding: 2px;
-	align-items: center;
-	justify-content: center;
-}
-
-.presentation-list-description-node {
-	font-size: 16px;
-	color: var(--color1);
-	font-family: var(--text-font);
-	padding-left: 5px;
-}
-
-.presentation-list-node {
-	background-color: rgba(205, 109, 77, 0.1);
-	display: flex;
-	border-radius: 20px;
-	align-items: center;
-	width: fit-content;
-	padding: 5px 10px;
-	border: 1px solid #ffffff;
-}
-
-.presentation-list-logoexpress {
-	background-color: var(--color2);
-	border-radius: 50%;
-	padding: 2px;
-	align-items: center;
-	justify-content: center;
-}
-
-.presentation-list-description-express {
-	font-size: 16px;
-	color: var(--color2);
-	font-family: var(--text-font);
-	padding-left: 5px;
-}
-
-.presentation-list-express {
-	background-color: rgba(155, 138, 196, 0.1);
-	display: flex;
-	border-radius: 20px;
-	align-items: center;
-	width: fit-content;
-	padding: 5px 10px;
-	border: 1px solid #ffffff;
-}
-
-.presentation-list-logomysql {
-	background-color: var(--color3);
-	border-radius: 50%;
-	padding: 2px;
-	align-items: center;
-	justify-content: center;
-}
-
-.presentation-list-description-mysql {
-	font-size: 16px;
-	color: var(--color3);
-	font-family: var(--text-font);
-	padding-left: 5px;
-}
-
-.presentation-list-mysql {
-	background-color: rgba(74, 144, 184, 0.1);
-	display: flex;
-	border-radius: 20px;
-	align-items: center;
-	width: fit-content;
-	padding: 5px 10px;
-	border: 1px solid #ffffff;
-}
-
 .presentation-list {
-	display: grid;
-	grid-template-columns: repeat(2, auto);
+	display: flex;
+	flex-wrap: wrap;
 	gap: 10px;
 	justify-content: start;
 	padding: 10px;
 	list-style: none;
 }
 
-/* Ajuster les éléments individuels pour qu'ils s'adaptent à la grille */
 .presentation-list li {
 	display: flex;
 	justify-content: flex-start;
 	align-items: left;
-	width: auto;
-}
-
-.presentation-github {
-	padding: 10px;
-	border-radius: 50%;
-	cursor: pointer;
-	transition: all 0.3s ease;
-}
-
-.presentation-github:hover {
-	background-color: var(--color2);
-	border-color: transparent;
-}
-
-.presentation-linkedin {
-	padding: 10px;
-	border-radius: 50%;
-	cursor: pointer;
-	transition: all 0.3s ease;
-}
-
-.presentation-linkedin:hover {
-	background-color: var(--color2);
-	border-color: transparent;
-}
-
-.presentation-github:hover img,
-.presentation-linkedin:hover img {
-	filter: brightness(0) invert(1);
 }
 
 .presentation-social-links {
@@ -295,7 +86,5 @@
 	justify-content: start;
 	align-items: center;
 	gap: 20px;
-	padding-left: 20px;
-	padding-top: 30px;
-	padding-bottom: 20px;
+	padding: 10px;
 }
